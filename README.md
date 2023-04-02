@@ -11,7 +11,7 @@ Não está responsiva ainda, mas pretendo adicionar responsividade.
 | :fire: Desafio     | https://7daysofcode.io/matricula/html-css-linkedin
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://adrianeboucinha.github.io/7daysofcode-linkedin/#vitrinedev)
+![https://adrianeboucinha.github.io/7daysofcode-linkedin/#vitrinedev](https://adrianeboucinha.github.io/7daysofcode-linkedin/#vitrinedev)
 
 ## Detalhes do projeto
 
