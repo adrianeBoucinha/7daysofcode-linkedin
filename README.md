@@ -7,7 +7,7 @@ Não está responsiva ainda, mas pretendo adicionar responsividade.
 | -------------  | --- |
 | :sparkles: Nome        | **7DaysOfCode - HTML e CSS (Linkedin)**
 | :label: Tecnologias | HTML, CSS
-| :rocket: URL         | https://url-deploy.com.br
+| :rocket: URL         | https://adrianeboucinha.github.io/7daysofcode-linkedin/
 | :fire: Desafio     | https://7daysofcode.io/matricula/html-css-linkedin
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
