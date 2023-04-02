@@ -1,0 +1,100 @@
+@import url('../style.css');
+
+div.perfil{
+  margin-top: 1rem;
+}
+section.card {
+  width: 768px;
+  margin-top: 8px;
+  background-color: var(--fundo-card);
+  color: var(--texto-principal);
+  border-radius: .8rem;
+  line-height: 1.50;
+  font-family: var(--fonte-Roboto);
+}
+.card .informacoes__perfil {
+  font-size: 50%;
+  margin-top: 2.4rem;
+}
+.informacoes__perfil .informacoes__imagem-capa img{
+  width: min(100%, 768px);
+  height: 196px;
+  object-fit: cover;
+  border-top-left-radius: .8rem;
+  border-top-right-radius: .8rem;
+}
+
+.informacoes__imagem-perfil img{
+  width: 156px;
+  height: 156px;
+  margin-top: -112px;
+  margin-left: 1.2rem;
+  border: 4px solid var(--fundo-card);
+  border-radius: 50%;
+}
+.informacoes__perfil-wrap {
+  margin-left: 1.2rem;
+  display: grid;
+  grid-template-areas:
+    "pessoal carreira"
+    "local carreira";
+}
+.informacoes__perfil-sobre {
+  grid-area: pessoal;
+}
+.informacoes__perfil-sobre h2 {
+  color: var(--texto-principal);
+  font-size: 2em;
+}
+.perfil__sobre-subtitulo {
+  font-size: 1em;
+} 
+.perfil__sobre-texto {
+  font-size: 0.9em;
+  color: var(--texto-secundario);
+}
+
+.perfil__carreira {
+  grid-area: carreira;
+}
+ul.perfil__carreira li {
+  display: flex;
+  align-items: center;
+  
+}
+ul.perfil__carreira li img {
+  margin-right: .6rem;
+  padding: 0.125rem;
+}
+ul.perfil__carreira li h2 {
+font-size: 0.9em;
+}
+
+.perfil__local {
+  grid-area: local;
+  font-size: 1em;
+  position: relative;
+}
+.perfil__local-contato {
+  color: var(--primario);
+} 
+
+.perfil__conexoes {
+  margin-left: 1.2rem;
+  position: relative;
+  display: flex;
+  padding-top: 4px;
+  font-size: 0.9em;
+  color: var(--primario);
+}
+.perfil__conexoes li:last-child, .perfil__local .perfil__local-contato {
+  margin-left: .6rem;
+}
+.perfil__botao {
+  margin-left: 1.2rem;
+}
+.perfil__botao button:last-child {
+  margin-left: .6rem;
+}
+
+

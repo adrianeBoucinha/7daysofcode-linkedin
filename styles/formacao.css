@@ -1,0 +1,15 @@
+@import url('../style.css');
+
+section.card.formacao{
+  padding: 1rem 1.3rem;
+}
+.formacao__descricao {
+  display: flex;
+  align-items: center;
+}
+.formacao__descricao-texto {
+  margin: .9rem 0 0 1rem;
+}
+.formacao__descricao-texto span {
+  color: var(--texto-secundario);
+}

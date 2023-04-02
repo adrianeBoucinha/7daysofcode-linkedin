@@ -1,0 +1,45 @@
+@import url('../style.css');
+
+section.card.experiencias{
+  padding: 1rem 1.3rem;
+}
+.experiencias__empresa {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+}
+.experiencias__empresa img {
+  margin-right: 1rem;
+}
+.experiencias__empresa-texto p {
+  color: var(--texto-secundario);
+}
+.experiencias__item {
+  display: flex;
+  align-items: center;
+}
+
+.experiencias__item .item__detalhe {
+  width: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.experiencias__item .item__detalhe .bolinha {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--texto-secundario);
+}
+.experiencias__item .item__detalhe .linha {
+  margin-top: .6rem;
+  border-right: 1px solid var(--texto-secundario);
+  height: 3.9rem;
+}
+.item__descricao {
+  padding: .7rem;
+}
+.item__descricao .descricao__texto {
+  font-size: 0.9rem;
+  color: var(--texto-secundario);
+}

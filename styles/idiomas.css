@@ -1,0 +1,14 @@
+@import url('../style.css');
+
+
+section.card.idiomas{
+  padding: 1rem 1.3rem;
+}
+.idiomas__texto {
+  line-height: 1.5rem;
+  margin: .6rem 0;
+}
+.idiomas__texto p {
+  margin: .2rem 0;
+  color: var(--texto-secundario);
+}

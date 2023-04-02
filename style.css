@@ -1,0 +1,67 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+@import url('./styles/perfil.css');
+@import url('./styles/cabecalho.css');
+@import url('./styles/destaques.css');
+@import url('./styles/atividades.css');
+@import url('./styles/sobre.css');
+@import url('./styles/experiencias.css');
+@import url('./styles/formacao.css');
+@import url('./styles/idiomas.css');
+@import url('./styles/sugestoes.css');
+
+
+
+:root{
+  --fundo-escuro: #000;
+  --fundo-card: #1d2226;
+  --fundo-card-ativo: hsla(0, 0%, 100%, 0.12);
+  --texto-principal: hsla(0, 0%, 100%, 0.9);
+  --texto-secundario: hsla(0, 0%, 100%, 0.6);
+  --texto-escuro: hsla(0, 0%, 0%, 0.75);
+  --input: #38434F;
+  --primario: #70b5f9;
+  --positivo: #3ec786;
+  --fonte-Roboto: 'Roboto';
+  --fonte-Inter: 'Inter', 'sans-serif';
+}
+
+body {
+  background-color: var(--fundo-escuro);
+}
+a {
+  color: var(--texto-principal);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+main{
+  display: flex;
+  justify-content: center;
+
+}
+main > div{
+  display: flex;
+  flex-direction: column;
+}
+main > .perfil{
+  align-items: flex-end;
+  margin-right: 1.5rem;
+}
+main > .sugestoes{
+  align-items: flex-start;
+}
+
+.botao-primario{
+  background-color: var(--primario);
+}
+.botao-secundario{
+  background: transparent;
+  color: var(--primario);
+  border: 1px solid var(--primario);
+}

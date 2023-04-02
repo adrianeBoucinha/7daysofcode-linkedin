@@ -1,0 +1,10 @@
+@import url('../style.css');
+
+section.card.sobre{
+  padding: 1rem 1.6rem;
+
+}
+.sobre p {
+  text-align: justify;
+  font-size: .8rem;
+}

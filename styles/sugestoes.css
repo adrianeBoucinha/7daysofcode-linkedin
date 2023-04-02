@@ -1,0 +1,44 @@
+@import url('../style.css');
+
+div.sugestoes{
+  margin-top: 1rem;
+  grid-area: conteudo;
+}
+section.card.sugestoes{
+  width: 320px;
+  padding: 1rem;
+}
+li.sugestao__item .perfil-nome{
+  font-weight: bold;
+  font-size: 14px;
+}
+
+li.sugestao__item .perfil-nome:hover{
+  color: var(--primario);
+  cursor: pointer;
+}
+
+li.sugestao__item .perfil-titulo{
+  font-size: .8rem;
+  color: var(--texto-secundario);
+}
+li.sugestao__item{
+  display: flex;
+  margin-top: .3rem;
+  line-height: 1rem;
+}
+li.sugestao__item>img{
+  width: 3rem;
+  height: 3rem;
+  margin-right: 8px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+button.botao-sugestao{
+  width: 154px;
+  color: var(--texto-principal);
+  border: 1px solid var(--texto-principal);
+  background-color: transparent;
+  margin-top: 4px;
+  font-weight: bold;
+}

@@ -1,0 +1,60 @@
+@import url('../style.css');
+
+section.card.atividades{
+  padding: 1rem 1.3rem;
+}
+.atividades .atividades__seguidores {
+  color: var(--primario);
+  font-size: 0.9rem;
+}
+.atividades__publicacao {
+  font-size: 0.8rem;
+}
+
+.atividades__publicacao .publicacao__subtitulo{
+  color: var(--texto-secundario);
+  display: flex;
+  align-items: center;
+}
+.publicacao__subtitulo li {
+  margin-right: .6rem;
+  margin-top: 0.6rem;
+}
+.publicacao__texto {
+  margin-top: 0.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.publicacao__texto p {
+  margin-left: .6rem;
+}
+.engajamento {
+  margin-top: .9rem;
+  padding: 0.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff99;
+  margin-bottom: .6rem;
+}
+.engajamento .reacoes {
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.engajamento .reacoes .reacao {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #DF704D;
+  transform: translateX(100%);
+  box-shadow: -8px 0 #378FE9, -16px 0 #6DAE4F;
+}
+.atividades__texto {
+  color: var(--texto-secundario);
+  text-align: center;
+  font-size: .9rem
+}

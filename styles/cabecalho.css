@@ -1,0 +1,97 @@
+@import url('../style.css');
+
+section.cabecalho {
+  height: 52px;
+  background-color: var(--fundo-card);
+  padding: 0 6rem;
+  display: flex;
+  justify-content: space-around;
+}
+.cabecalho__busca {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 370px;
+}
+.busca__logo-linkedin {
+  background-image: url('../assets/icones/logo-linkedin.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 34px;
+  height: 34px;
+  margin-right: 8px;
+}
+.busca__logo-pesquisa {
+  background-image: url('../assets/icones/lupa.svg');
+  background-repeat: no-repeat;
+  left: 50px;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.cabecalho__busca input {
+  border: none;
+  background-color: var(--input);
+  width: 280px;
+  height: 34px;
+  border-radius: 4px;
+  padding-left: 2.4rem;
+}
+.cabecalho__busca input::placeholder {
+  color: var(--texto-secundario);
+}
+.cabecalho nav{
+  display: flex;
+}
+.cabecalho__nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 52px;
+}
+.cabecalho__nav-item:last-child {
+  margin-left: .2rem;
+  border-left: 1px solid var(--texto-secundario);
+}
+.cabecalho__nav-item a {
+  font-size: 12px;
+  color: var(--texto-secundario);
+  text-align: center;
+  width: 80px;
+}
+.item-icone {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+}
+span.inicio {
+  background-image: url('../assets/icones/inicio.svg');
+}
+span.minha-rede {
+  background-image: url('../assets/icones/minha-rede.svg');
+}
+span.vagas {
+  background-image: url('../assets/icones/vagas.svg');
+}
+span.mensagens {
+  background-image: url('../assets/icones/mensagens.svg');
+}
+span.notificacoes {
+  background-image: url('../assets/icones/notificacoes.svg');
+}
+span.solucoes {
+  background-image: url('../assets/icones/solucoes.svg');
+}
+
+/*
+.cabecalho__redes {
+  display: flex;
+  align-items: center;
+ 
+}
+ul.cabecalho__redes li {
+  display: flex;
+  flex-direction: column;
+}
